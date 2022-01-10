@@ -30,5 +30,9 @@ public class Circle {
 		area = Math.PI * Math.pow(r, 2);
 	}
 	
-	
+	public void showInfo() {
+		calcCircum();
+		calcArea();
+		PrintCircle.print(this);
+	}
 }
