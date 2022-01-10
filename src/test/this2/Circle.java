@@ -6,8 +6,6 @@ public class Circle {
 	
 	public Circle(int r) {
 		this.r = r;
-		
-		
 	}
 
 	public int getR() {
@@ -25,5 +23,10 @@ public class Circle {
 // 반지름이 r인 원의 둘레계산하는 메소드
 	public void calcCircum() {
 		circum = 2 * Math.PI * r;
+	}
+
+// 반지름이 r인 원의 면적 계산하는 메소드
+	public void calcArea() {
+		area = Math.PI * Math.pow(r, 2);
 	}
 }
