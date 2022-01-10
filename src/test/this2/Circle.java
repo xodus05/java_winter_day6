@@ -24,9 +24,5 @@ public class Circle {
 	public void calcCircum() {
 		circum = 2 * Math.PI * r;
 	}
-	
-// 반지름이 r인 원의 면적 계산하는 메소드
-		public void calcArea() {
-			area = Math.PI * Math.pow(r, 2);
-		}
+
 }
