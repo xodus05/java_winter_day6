@@ -29,4 +29,6 @@ public class Circle {
 	public void calcArea() {
 		area = Math.PI * Math.pow(r, 2);
 	}
+	
+	
 }
